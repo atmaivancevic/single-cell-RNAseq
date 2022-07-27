@@ -8,7 +8,7 @@
 #SBATCH -N 1
 #SBATCH -c 8
 #SBATCH --time=24:00:00
-#SBATCH --mem=500GB
+#SBATCH --mem=100GB
 
 # Job name and output
 #SBATCH -J sraDownload
