@@ -23,6 +23,9 @@ ulimit -n 16000
 # echo the new ulimit (for troublehsooting later)
 bash -c 'ulimit -a'
 
+# note: make sure that cellranger is in the PATH of your ~/.bash_profile
+# e.g. PATH="$PATH:~/bin:/Shares/CL_Shared/programs/cellranger-7.0.0"
+
 # try running cellranger count on one sample
 pwd; hostname; date
 
